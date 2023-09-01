@@ -19,3 +19,10 @@ for row in multiplication_board:
             start = " "
         print(f"{start}{col}", end=" ")
     print()
+
+# Calculate and print sum of all numbers in matrix
+total = 0
+for numbers in multiplication_board:
+    for number in numbers:
+        total += number
+print("Sum of all numbers is", total)
