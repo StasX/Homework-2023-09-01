@@ -29,4 +29,4 @@ for items in colored_items:
 shortest = ", ".join(shortest)
 print(f"First shortest string in matrix is \"{shortest}\"")
 longest = ", ".join(longest)
-print(f"First shortest string in matrix is \"{longest}\"")
+print(f"First longest string in matrix is \"{longest}\"")
